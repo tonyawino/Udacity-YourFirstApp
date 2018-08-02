@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Your First App</string>
+    <string name="jtl">Jamii Telecommunications Limited</string>
+    <string name="number">0747 585 100</string>
+    <string name="email">customercare@jtl.co.ke</string>
+    <string name="location">Jamii Towers, Hospital Rd, Upper Hill, Nairobi</string>
+    <string name="website">www.faiba4g.co.ke</string>
+</resources>
