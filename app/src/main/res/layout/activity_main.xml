@@ -30,7 +30,8 @@
             android:textSize="16sp"
             android:text="@string/jtl"
             android:layout_gravity="center_vertical"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="#000"/>
     </LinearLayout>
     <LinearLayout
         android:paddingLeft="16dp"
@@ -49,7 +50,9 @@
             android:text="@string/number"
             android:textSize="16sp"
             android:layout_gravity="center_vertical"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:autoLink="phone"
+            android:textColorLink="#000"/>
     </LinearLayout>
     <LinearLayout
         android:paddingLeft="16dp"
@@ -68,7 +71,9 @@
             android:text="@string/email"
             android:textSize="16sp"
             android:layout_gravity="center_vertical"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:autoLink="email"
+            android:textColorLink="#000"/>
     </LinearLayout>
     <LinearLayout
         android:paddingLeft="16dp"
@@ -88,7 +93,8 @@
             android:textSize="16sp"
             android:text="@string/location"
             android:layout_gravity="center_vertical"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="#000"/>
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
@@ -97,8 +103,9 @@
         android:textSize="16sp"
         android:layout_gravity="center"
         android:textStyle="bold"
-        android:textColor="#689F38"
-        android:text="@string/website"/>
+        android:textColorLink="#689F38"
+        android:text="@string/website"
+        android:autoLink="web"/>
 
 
 </LinearLayout>
