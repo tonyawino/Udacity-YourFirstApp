@@ -3,109 +3,122 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <ImageView
-        android:scaleType="centerCrop"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:src="@drawable/faiba"
-        android:paddingBottom="8dp"/>
+        android:paddingBottom="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/faiba" />
+
     <LinearLayout
-        android:paddingLeft="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingBottom="8dp">
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp">
+
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/jamii_telecom"/>
+            android:src="@drawable/jamii_telecom" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="8dp"
-            android:textSize="16sp"
-            android:text="@string/jtl"
             android:layout_gravity="center_vertical"
-            android:textStyle="bold"
-            android:textColor="#000"/>
+            android:paddingLeft="8dp"
+            android:text="@string/jtl"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
     </LinearLayout>
+
     <LinearLayout
-        android:paddingLeft="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingBottom="8dp">
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp">
+
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/faiba_call"/>
+            android:src="@drawable/faiba_call" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:autoLink="phone"
             android:paddingLeft="8dp"
             android:text="@string/number"
+            android:textColorLink="#000"
             android:textSize="16sp"
-            android:layout_gravity="center_vertical"
-            android:textStyle="bold"
-            android:autoLink="phone"
-            android:textColorLink="#000"/>
+            android:textStyle="bold" />
     </LinearLayout>
+
     <LinearLayout
-        android:paddingLeft="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingBottom="8dp">
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp">
+
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/faiba_email"/>
+            android:src="@drawable/faiba_email" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:autoLink="email"
             android:paddingLeft="8dp"
             android:text="@string/email"
+            android:textColorLink="#000"
             android:textSize="16sp"
-            android:layout_gravity="center_vertical"
-            android:textStyle="bold"
-            android:autoLink="email"
-            android:textColorLink="#000"/>
+            android:textStyle="bold" />
     </LinearLayout>
+
     <LinearLayout
-        android:paddingLeft="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingBottom="8dp">
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp">
+
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/faiba_location"/>
+            android:src="@drawable/faiba_location" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
-            android:textSize="16sp"
             android:text="@string/location"
-            android:layout_gravity="center_vertical"
-            android:textStyle="bold"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
     </LinearLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingBottom="8dp"
-        android:textSize="16sp"
         android:layout_gravity="center"
-        android:textStyle="bold"
-        android:textColorLink="#689F38"
+        android:autoLink="web"
+        android:paddingBottom="8dp"
         android:text="@string/website"
-        android:autoLink="web"/>
+        android:textColorLink="#689F38"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
 
 </LinearLayout>
